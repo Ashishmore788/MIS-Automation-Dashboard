@@ -1,0 +1,139 @@
+{
+  "name": "MIS Automation Dashboard",
+  "dataColors": [
+    "#1F6FEB",
+    "#2EA043",
+    "#D93025",
+    "#F4A100",
+    "#6B48D4",
+    "#0D9488",
+    "#EC6B2D",
+    "#64748B"
+  ],
+  "background": "#F8FAFC",
+  "foreground": "#1E293B",
+  "tableAccent": "#1F6FEB",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "solid": { "color": "#1E293B" } }],
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "border": [{ "solid": { "color": "#E2E8F0" } }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "border": [{ "solid": { "color": "#E2E8F0" } }],
+        "dataLabel": [{
+          "color": { "solid": { "color": "#1E293B" } },
+          "fontSize": 28,
+          "fontFamily": "Segoe UI",
+          "fontBold": true
+        }],
+        "categoryLabel": [{
+          "color": { "solid": { "color": "#64748B" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI"
+        }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#1F6FEB" } }
+        }],
+        "categoryAxis": [{
+          "gridlineColor": { "solid": { "color": "#E2E8F0" } },
+          "labelColor": { "solid": { "color": "#64748B" } }
+        }],
+        "valueAxis": [{
+          "gridlineColor": { "solid": { "color": "#E2E8F0" } },
+          "labelColor": { "solid": { "color": "#64748B" } }
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#1F6FEB" } }
+        }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#1F6FEB" } }
+        }],
+        "line": [{
+          "strokeWidth": 3
+        }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [{
+          "labelColor": { "solid": { "color": "#1E293B" } },
+          "fontSize": 11
+        }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "header": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "backColor": { "solid": { "color": "#1F6FEB" } },
+          "fontSize": 11,
+          "fontBold": true
+        }],
+        "rows": [{
+          "fontColor": { "solid": { "color": "#1E293B" } },
+          "backColor": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 11
+        }],
+        "grid": [{
+          "gridVertical": false,
+          "gridHorizontalColor": { "solid": { "color": "#E2E8F0" } }
+        }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "data": [{
+          "fontColor": { "solid": { "color": "#1E293B" } },
+          "fontSize": 11
+        }],
+        "header": [{
+          "fontColor": { "solid": { "color": "#64748B" } },
+          "fontSize": 11,
+          "fontBold": true
+        }]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {
+      "fontSize": 45,
+      "fontFace": "Segoe UI",
+      "color": "#1E293B"
+    },
+    "title": {
+      "fontSize": 16,
+      "fontFace": "Segoe UI",
+      "color": "#1E293B"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#1E293B"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#64748B"
+    }
+  }
+}
